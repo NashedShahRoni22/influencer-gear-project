@@ -165,6 +165,35 @@ nav{
     font-size: 16px;
     color: #6C6C6C;
 }
+/* footer  */
+footer{
+    background-color: #0A0826;
+    color: white;
+    text-align: center;
+    padding: 16px 0;
+}
+.footer-content h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer-content p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #D9DBE1;
+}
+.social-icon ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.social-icon i{
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.116);
+    border-radius: 50%;
+    font-size: 16px;
+    color: white;
+}
 /* smaller devices  */
 
 @media only screen and (max-width:576px) {
